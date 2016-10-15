@@ -1,0 +1,28 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background: #ffff;
+}
+
+.container{
+	display: grid;
+}
+
+.card{
+  width: 30%;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important; 
+  margin: 3%;
+  
+}
+
+.title{
+	background-color: blue;
+	color: #ffffff;
+	text-align: center;
+	padding: 1%
+}
+
+.description{
+	text-align: center;
+	padding: 1%;
+}

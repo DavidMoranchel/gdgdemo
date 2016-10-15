@@ -1,0 +1,17 @@
+{%extends "index.html"%}
+
+
+{% block info %}
+	{%for i in info%}
+		<div class="card">
+			<div class="title">
+				<p>{{i.title}}</p>
+			</div>
+			<div class="description">
+				<p>{{i.description}}</p>
+			</div>	
+		</div>
+	{%endfor%}
+{% endblock info %}
+
+
